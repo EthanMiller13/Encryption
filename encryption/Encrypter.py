@@ -4,7 +4,7 @@ import time
 
 
 # Colors for massages
-def red(text: str):return Fore.RED + text + Fore.RESET
+def red(text: str): return Fore.RED + text + Fore.RESET
 def green(text: str): return Fore.GREEN + text + Fore.RESET
 def cyan(text: str): return Fore.CYAN + text + Fore.RESET
 def magenta(text: str): return Fore.MAGENTA + text + Fore.RESET
