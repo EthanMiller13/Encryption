@@ -50,7 +50,6 @@ class Encrypter:
         except TypeError:
             print(red("Key is none"))
 
-
     def decrypt_an_encrypted_file(self, path):
         try:
             fernet = Fernet(self.key)
